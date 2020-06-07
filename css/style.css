@@ -1,0 +1,140 @@
+body {
+    background-color: #f8f8f8 !important;
+}
+
+.title-h2{
+    font-size: 2.4rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+
+.title-h2 span {
+    font-size: 3.8rem;
+    font-family: 'Italianno', cursive;
+    color: #e082a8;
+}
+
+/* sociales */
+.sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.fab{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    font-size: 2rem;
+    color: #e082a8
+}
+
+.navegacion{
+    background-color: #8ed3cc;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: #ffffff;
+}
+
+.nav__brand{
+ color: #ffffff !important;
+}
+
+.nav-principal{
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif ;
+}
+
+.nav-link:hover{
+    color: #e082a8;
+}
+
+/* carousel */
+.carousel-caption .h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* nuevo sitio */
+
+.nuevo-sitio p {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-size: 1.6rem;
+}
+
+.imagen-servicio img {
+    border: 6px solid white;
+    transition: transform .3s ease;
+}
+.imagen-servicio img:hover{
+    transform: scale(1.2) rotate(2deg);
+}
+
+.servicio-info{
+    background-color: white;
+    margin-top: -2rem;
+}
+
+.servicio-info .btn-primary {
+    border-radius: 0;
+    background-color: #e082a8;
+    border: none;
+}
+
+.servicio-info .btn-primary:hover{
+    background-color: #e082a7ea;
+}
+
+/* horarios */
+
+.horario{
+    background-color: #8ed3cc;
+    color: white;
+}
+
+.horario h2 {
+    font-size: 2.2rem;
+}
+
+.horario .table{
+    color: white;
+    border: 2px solid #e082a8
+}
+
+.horario .table thead{
+    background-color: #e082a8;
+}
+
+.horario .table td,
+.horario .table thead th {
+    border: none;
+}
+
+.horario .table tbody tr td{
+    padding: .4rem;
+    font-family: 'Laro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.bg-horario {
+    background-image: url(../img/servicio_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
