@@ -166,3 +166,45 @@ body {
     color: #979797;
 }
 
+/* Citas */
+
+.citas{
+    background-image: url(../img/slide_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    color: white;
+}
+
+@media ( min-width: 992px ){
+    .citas{
+        background-size: cover;
+    }
+}
+.citas h1{
+    font-size: 3rem;
+    font-family: 'Lato' , sans-serif;
+
+}
+
+.citas p {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+
+.citas .btn-primary{
+    background-color: #8ed3cc;
+    border: 0;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    font-family: 'Lato' , sans-serif;
+    font-size: 1.2rem;
+}
+
+/* footer */
+
+.copyright {
+    color: #979797;
+    font-size: .8rem;
+}
