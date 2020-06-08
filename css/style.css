@@ -138,3 +138,31 @@ body {
     background-position: center center;
     background-size: cover;
 }
+ /* productos */
+.productos .card{
+ border: none;
+}
+
+.productos .card a {
+    color: black;
+}
+
+.productos .card a:hover{
+    text-decoration: none;
+}
+
+.productos .card h3{
+    color: #e082a8;
+    font-family: 'Laro', sans-serif;
+    font-size: 1.3rem;
+}
+
+.productos .card p{
+    font-size: .8rem;
+}
+
+.productos .card .precio {
+    font-size: 1.6rem;
+    color: #979797;
+}
+
